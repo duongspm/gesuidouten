@@ -6,7 +6,7 @@
     padding-left: 30px;
 }
 .apply-box__title{
-    color: #345ba7;
+    color: #576eb3;
     font-weight: bold;
     padding-left: 30px;
     line-height: 1.5;
@@ -19,11 +19,11 @@
     left: 0;
 }
 .txt--red{
-    color: #C40019;
+    color: #cb0e23;
 }
 .apply-box__subtitle{
     font-size: 2rem;
-    color: #345BA7;
+    color: #576eb3;
     font-weight: normal;
     position: relative;
     padding-left: 28px;
@@ -32,7 +32,7 @@
     display: block;
     text-align: center;
     border-radius: 50%;
-    background: #345BA7;
+    background: #576eb3;
     color: #FFFFFF;
     width: 25px;
     height: 25px;
@@ -50,13 +50,13 @@
     max-width: 324px;
     width: 100%;
     margin: 0 auto;
-    background: #2A4A7E;
+    background: #465c8e;
     text-align: center;
     display: block;
     padding: 20px 0;
 }
 .apply__btn a:hover{
-    background: linear-gradient(to right, #001a60, #0397e0);
+    background: linear-gradient(to right, #465c8e, #0397e0);
 }
 .apply__btn a::after{
     content: '';
@@ -101,7 +101,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-top: 30px solid #5595DC;
+    border-top: 30px solid #79a5e0;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -109,12 +109,12 @@
 }
 .apply-sp__title{
     text-align: center;
-    background: #345BA7;
+    background: #576eb3;
     color: #FFFFFF;
     font-weight: 500;
 }
 .apply-sp__desc{
-    color: #345BA7;
+    color: #576eb3;
     text-align: center;
     font-weight: 500;
     margin: 3px 0 5px;
@@ -164,13 +164,13 @@
     display: flex;
     align-items: center;
     width: 47.368%;
-    border: 2px solid #345BA7;
+    border: 2px solid #576eb3;
     font-weight: bold;
     margin-right: 25px;
 }
 .rule-item__title{
     width: 45.555%;
-    background: #345BA7;
+    background: #576eb3;
     color: #FFFFFF;
     font-size: 1.8rem;
     line-height: calc(22/18);
@@ -189,17 +189,17 @@
 }
 @media (max-width: 768px){
     .apply__box{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .apply-box__title{
         padding-left: 0;
         text-indent: 22px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .apply-box__title .number{
         left: -22px;
         top: 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .apply__btn {
         margin: 20px 0 30px;
@@ -207,7 +207,7 @@
     .apply__btn a{
         max-width: 230px;
         padding: 13px 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .apply__btn a::after {
         padding: 5px;
@@ -223,15 +223,15 @@
     }
     .apply__note a{
         margin-left: 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .apply-sp{
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 500;
-        color: #223A8D;
+        color: #576eb3;
     }
     .apply__box--2 .apply-box__inner p{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .apply__box--2 .ic--arrow::after {
         left: 50%;
@@ -242,13 +242,13 @@
     .ic--arrow::after {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
-        border-top: 25px solid #5595DC;
+        border-top: 25px solid #79a5e0;
     }
     .apply__box--3 .apply-box__title{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .apply-box__subtitle{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         padding-left: 28px;
     }
     .apply__box--3 .apply-box__inner{
@@ -287,7 +287,7 @@
         padding: 5px 10px;
     }
     .apply-box__cap{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         text-align: left;
     }
     .rule-item__desc{
